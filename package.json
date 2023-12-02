@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "react-router-dom": "^6.20.0"
+  }
+}
