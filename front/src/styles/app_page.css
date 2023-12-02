@@ -1,0 +1,46 @@
+/* Reset some default styles for better consistency */
+body, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a futuristic font for the entire page */
+  body {
+    font-family: 'Roboto', sans-serif; /* You can replace 'Roboto' with any other futuristic font */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Style the navigation bar */
+  .navigation-bar {
+    background-color: #292929; /* Darker background color for the navigation bar */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  /* Style the unordered list */
+  ul.pages-list {
+    list-style-type: none; /* Remove default list bullets */
+    display: flex; /* Display list items horizontally */
+    justify-content: space-around; /* Equal spacing between list items */
+  }
+  
+  /* Style the list items */
+  li.page-link-item {
+    flex: 1; /* Equal width for each list item */
+    text-align: center; /* Center text in list items */
+  }
+  
+  /* Style the links */
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Link color */
+    font-size: 1.2em; /* Font size for links */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  }
+  
+  /* Change link color on hover */
+  a:hover {
+    color: #4CAF50; /* Change color to green on hover */
+  }
+  

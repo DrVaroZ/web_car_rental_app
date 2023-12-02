@@ -1,0 +1,49 @@
+/* Reset some default styles for better consistency */
+body, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a futuristic font for the entire page */
+  body {
+    font-family: 'Roboto', sans-serif; /* You can replace 'Roboto' with any other futuristic font */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Style the main container */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; /* Make the container full height of the viewport */
+  }
+  
+  /* Style the joke container */
+  .joke-container {
+    background-color: #292929; /* Darker background color */
+    border-radius: 10px; /* Add some border radius for a softer look */
+    padding: 5px; /* Add padding for better spacing */
+    text-align: center; /* Center text in the container */
+  }
+  
+  /* Style the joke setup */
+  .joke-setup {
+    font-size: 1.2em; /* Increase font size for better readability */
+    margin-bottom: 3px; /* Add some space below the setup */
+  }
+  
+  /* Style the joke punchline */
+  .joke-punchline {
+    font-size: 1.5em; /* Larger font size for the punchline */
+    font-weight: bold; /* Make the punchline bold */
+    color: #4CAF50; /* Punchline color */
+    margin-top: 3px; /* Add some space above the punchline */
+  }
+  
+  /* Add a subtle shadow to the container */
+  .joke-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  

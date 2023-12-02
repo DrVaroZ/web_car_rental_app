@@ -1,0 +1,64 @@
+/* Reset some default styles for better consistency */
+body, h2, ul, li, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a futuristic font for the entire page */
+  body {
+    font-family: 'Roboto', sans-serif; /* You can replace 'Roboto' with any other futuristic font */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Style the vacancy container */
+  .vacancy-container {
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center; /* Center text in the container */
+  }
+  
+  /* Style the heading 2 */
+  h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+  /* Style the unordered list */
+  ul.vacancy-list {
+    list-style-type: none; /* Remove default list bullets */
+  }
+  
+  /* Style the list items */
+  li.vacancy {
+    background-color: #292929; /* Darker background color */
+    border-radius: 10px; /* Add some border radius for a softer look */
+    padding: 20px; /* Add padding for better spacing */
+    margin-bottom: 20px; /* Add space between list items */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the container */
+  }
+  
+  /* Style the heading 3 */
+  li.vacancy h3 {
+    font-size: 1.5em; /* Larger font size for the vacancy position */
+    margin-bottom: 10px; /* Add some space below the position */
+  }
+  
+  /* Style the paragraphs */
+  li.vacancy p {
+    font-size: 1.2em; /* Increase font size for better readability */
+    margin-bottom: 10px; /* Add some space below each paragraph */
+  }
+  
+  /* Add a color accent to the salary */
+  li.vacancy p:nth-child(3) {
+    color: #4CAF50; /* Salary color */
+  }
+  
+  /* Add a subtle shadow to the container */
+  .vacancy {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  

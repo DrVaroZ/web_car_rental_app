@@ -1,0 +1,54 @@
+/* Reset some default styles for better consistency */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a futuristic font for the entire page */
+  body {
+    font-family: 'Roboto', sans-serif; /* You can replace 'Roboto' with any other futuristic font */
+  }
+  
+  /* Style the landing page container */
+  .landing-page-container {
+    background-color: #232323; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  
+  /* Style the heading */
+  .landing-page-container h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  /* Style the paragraph */
+  .landing-page-container p {
+    font-size: 1.2em; /* Increase font size for better readability */
+  }
+  
+  /* Style the unordered list */
+  .landing-page-container ul {
+    list-style-type: none; /* Remove default list bullets */
+    margin-top: 15px; /* Add some space above the list */
+  }
+  
+  /* Style the list items */
+  .landing-page-container li {
+    margin-bottom: 10px; /* Add space between list items */
+  }
+  
+  /* Style the links */
+  .landing-page-container a {
+    text-decoration: none; /* Remove underline from links */
+    color: #4CAF50; /* Link color */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  
+  }
+  
+  /* Change link color on hover */
+  .landing-page-container a:hover {
+    color: #fff; /* Change color to white on hover */
+  }
+      

@@ -1,0 +1,56 @@
+/* Reset some default styles for better consistency */
+body, h2, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a futuristic font for the entire page */
+  body {
+    font-family: 'Roboto', sans-serif; /* You can replace 'Roboto' with any other futuristic font */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Style the car details container */
+  .car-details-container {
+    background-color: #292929; /* Darker background color */
+    border-radius: 10px; /* Add some border radius for a softer look */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center; /* Center text in the container */
+  }
+  
+  /* Style the heading 2 */
+  .car-details-container h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  /* Style the image */
+  .car-details-container img {
+    width: 30%; /* Make the image fill the container */
+    border-radius: 10px; /* Add some border radius for a softer look */
+    margin-bottom: 20px; /* Add space below the image */
+  }
+  
+  /* Style the paragraphs */
+  .car-details-container p {
+    font-size: 1.2em; /* Increase font size for better readability */
+    margin-bottom: 10px; /* Add some space below each paragraph */
+  }
+  
+  /* Add a subtle shadow to the container */
+  .car-details-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .car-details-item {
+    flex: 0 0 calc(40% - 20px); /* Уменьшаем flex-basis до 50% с учетом отступов */
+    width: calc(40% - 20px); /* Задаем фиксированную ширину с учетом отступов */
+    border: 3px solid #138b13;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+  

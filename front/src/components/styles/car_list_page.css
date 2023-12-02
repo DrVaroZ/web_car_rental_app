@@ -1,0 +1,122 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a futuristic font for the entire page */
+  body {
+    font-family: 'Roboto', sans-serif; /* You can replace 'Roboto' with any other futuristic font */
+  }
+  
+  /* Style the car list container */
+  .car-list-container {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  
+  /* Style the heading 2 */
+  .car-list-container h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  /* Style the welcome message */
+  .car-list-container p {
+    font-size: 1.2em; /* Increase font size for better readability */
+  }
+  
+  /* Style the buttons */
+  .car-list-container button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Add padding to the buttons */
+    margin-right: 10px; /* Add space between buttons */
+    cursor: pointer; /* Change cursor on hover */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add some border radius for a softer look */
+  }
+  
+  /* Change button color on hover */
+  .car-list-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Style the input fields */
+  .car-list-container input {
+    padding: 8px; /* Add padding to the input fields */
+    margin-bottom: 10px; /* Add space between input fields */
+    border: 1px solid #4CAF50; /* Add a border to the input fields */
+    border-radius: 5px; /* Add some border radius for a softer look */
+  }
+  
+  /* Style the unordered list */
+  .car-list-container ul {
+    list-style-type: none; /* Remove default list bullets */
+    margin-top: 15px; /* Add some space above the list */
+  }
+  
+  /* Style the list items */
+  .car-list-container li {
+    margin-bottom: 20px; /* Add space between list items */
+  }
+
+  .car-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+  .car-item {
+    flex: 0 0 calc(40% - 20px); /* Уменьшаем flex-basis до 50% с учетом отступов */
+    width: calc(40% - 20px); /* Задаем фиксированную ширину с учетом отступов */
+    border: 3px solid #138b13;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.joke-container {
+    flex: 0 0 calc(40% - 20px); /* Уменьшаем flex-basis до 50% с учетом отступов */
+    width: calc(40% - 20px); /* Задаем фиксированную ширину с учетом отступов */
+    border: 3px solid #138b13;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #110f0f;
+    margin-bottom: 20px;
+}
+
+.quote-container {
+    flex: 0 0 calc(40% - 20px); /* Уменьшаем flex-basis до 50% с учетом отступов */
+    width: calc(40% - 20px); /* Задаем фиксированную ширину с учетом отступов */
+    border: 3px solid #138b13;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #110f0f;
+    margin-bottom: 20px;
+}
+
+  
+  /* Style the images inside list items */
+  .car-list-container li img {
+    border-radius: 5px; /* Add some border radius for a softer look */
+  }
+  
+  /* Style the links */
+  .car-list-container a {
+    text-decoration: none; /* Remove underline from links */
+    color: #4CAF50; /* Link color */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  }
+  
+  /* Change link color on hover */
+  .car-list-container a:hover {
+    color: rgb(41, 17, 226); /* Change color to white on hover */
+  }
+  

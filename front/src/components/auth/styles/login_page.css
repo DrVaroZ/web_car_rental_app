@@ -1,0 +1,72 @@
+/* Reset some default styles for better consistency */
+body, h2, form, label, input, button, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a futuristic font for the entire page */
+  body {
+    font-family: 'Roboto', sans-serif; /* You can replace 'Roboto' with any other futuristic font */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Style the login container */
+  .login_container {
+    max-width: 400px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center; /* Center text in the container */
+  }
+  
+  /* Style the heading 2 */
+  h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: column; /* Arrange form elements vertically */
+  }
+  
+  /* Style the labels */
+  label {
+    font-size: 1.2em; /* Increase font size for better readability */
+    margin-bottom: 8px; /* Add some space below each label */
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px; /* Add padding to the input fields */
+    margin-bottom: 15px; /* Add some space below each input field */
+    border: 1px solid #4CAF50; /* Add a border to the input fields */
+    border-radius: 5px; /* Add some border radius for a softer look */
+    background-color: #292929; /* Darker background color for input fields */
+    color: #fff; /* Text color for input fields */
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Add padding to the button */
+    cursor: pointer; /* Change cursor on hover */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add some border radius for a softer look */
+    transition: background-color 0.3s ease; /* Add a smooth color transition on hover */
+  }
+  
+  /* Change button color on hover */
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Style the error message */
+  p {
+    color: rgb(220, 207, 207); /* Red color for error messages */
+    margin-top: 15px; /* Add some space above the error message */
+  }
+  
